@@ -1,3 +1,6 @@
+.cursor/
+assets/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -77,6 +80,14 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Audio (avoid committing recordings)
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.webm
 
 # IPython
 profile_default/
